@@ -8,7 +8,6 @@ public class DtoB {
         int n = scn.nextInt();
         int b = scn.nextInt();
         System.out.println(getValueInBase(n, b));
-        scn.close();
     }
 
     public static int getValueInBase(int n, int b) {
